@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
+body {
+	background: black;
+    font-family: 'Handlee', cursive;
+}
+
+/* Content Header */
+
+.postcard {
+	background: white;
+	width: 450px;
+	height: 350px;
+	margin: auto;
+}
+
+.postcard-header {
+    display: flex;
+    padding-top: 10px;
+}
+
+.postcard-header h1{
+    margin: 0px;
+    padding: 10px;
+    width: 360px;
+}
+img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Content Body */
+
+.postcard-body {
+    display: flex;
+}
+
+.body-left {
+    width: 245px;
+    padding-top: 10px;
+    
+}
+
+.body-left p{
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.body-right {
+    width: 200px;
+    padding-right: 5px;
+}
+
+.body-right input{
+    width: 180px;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid #757685;
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    font-weight: 600;
+    color: #757685;
+}
+
+/* Content Footer */
+
+.postcard-footer {
+    text-align: center;
+}
+
+.postcard-footer button {
+    padding: 5px;
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+    font-size: 12pt;
+    background: #B8B8B8;
+    border: none;
+}
